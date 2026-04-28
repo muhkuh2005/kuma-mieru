@@ -1,0 +1,114 @@
+{
+  "page": {
+    "main": "Startseite",
+    "edit": "Diese Seite bearbeiten",
+    "back": "Zurück",
+    "backMonitor": "Zurück zur Monitor-Liste"
+  },
+  "timer": {
+    "pause": "Pause",
+    "paused": "Pausiert",
+    "refreshing": "Aktualisiere …",
+    "refreshNow": "Jetzt aktualisieren",
+    "lastTime": "Letzte Aktualisierung: {time}",
+    "nextTime": "Aktualisierung in {sec} Sekunden",
+    "refreshSuccess": "Aktualisierung erfolgreich",
+    "pausedInfo": "Auto-Aktualisierung pausiert",
+    "resumedInfo": "Auto-Aktualisierung fortgesetzt"
+  },
+  "locale": {
+    "changing": "Wechsle zu {locale} …",
+    "changed": "Sprache geändert: {locale}",
+    "changeError": "Sprache konnte nicht geändert werden"
+  },
+  "error": {
+    "unknown": "Unbekannter Fehler",
+    "refresh": "Aktualisierung fehlgeschlagen",
+    "monitorNotFound": "Monitor nicht gefunden",
+    "requestData": "Daten konnten nicht geladen werden"
+  },
+  "node": {
+    "search": "Monitore suchen …",
+    "clearSearch": "Suche zurücksetzen",
+    "filterResults": "{count} passende Monitore gefunden",
+    "noMatchingResults": "Keine passenden Monitore gefunden",
+    "clearFilter": "Filter zurücksetzen",
+    "searchTime": "Zeit: {time}ms",
+    "uptimeStatus": "Verfügbarkeit (täglich)",
+    "latestPing": "Letzter Ping",
+    "avgPing": "Durchschnittlicher Ping",
+    "trimmedAvgPing": "Bereinigter Durchschnitt",
+    "online": "Online",
+    "offline": "Offline",
+    "pending": "Ausstehend",
+    "maintenance": "Wartung",
+    "count": "Letzte {count} Prüfungen",
+    "allStatus": "Alle Status",
+    "filterByStatus": "Nach Status filtern",
+    "searchInGroups": "In Gruppen suchen",
+    "filterTooltip": "Aktivieren, um auch Gruppennamen zu durchsuchen",
+    "groupMatched": "Gruppe trifft zu",
+    "statusFilter": {
+      "up": "Online",
+      "down": "Offline",
+      "pending": "Ausstehend",
+      "maintenance": "Wartung"
+    }
+  },
+  "alert": {
+    "createdAt": "Veröffentlicht: {time}",
+    "updatedAt": "Aktualisiert: {time}"
+  },
+  "navbar": {
+    "main": "Hauptnavigation",
+    "toolbar": "Werkzeugleiste",
+    "mobileToolbar": "Mobile Werkzeugleiste",
+    "mobileNav": "Mobile Navigation",
+    "search": "Suche",
+    "pageTabs": "Status-Seiten-Tabs"
+  },
+  "mode": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "noData": "Keine Daten verfügbar",
+  "safariWarning": "Safari wird derzeit nicht unterstützt",
+  "view": {
+    "switchToLite": "Zur kompakten Ansicht wechseln",
+    "switchToFull": "Zur vollen Ansicht wechseln",
+    "safariWarning": "Derzeit nicht unterstützt"
+  },
+  "maintenance": {
+    "default": "Geplante Wartung",
+    "InProgress": "Wartung läuft",
+    "Scheduled": "Geplante Wartung",
+    "Progress": "Wartungsfortschritt",
+    "StartsIn": "Beginnt um {time}",
+    "EndsIn": "Voraussichtliches Ende um {time}",
+    "timezoneInfo": "Zeitzone: {timezone}",
+    "scheduledMaintenance": "Wartung planen",
+    "maintenanceInProgress": "Wartung"
+  },
+  "status": {
+    "loading": "Lädt …",
+    "systemNormal": "Alle Systeme betriebsbereit",
+    "systemWarning": "Teilweise eingeschränkter Betrieb",
+    "systemError": "Kritischer Systemausfall",
+    "systemUnknown": "Systemstatus nicht verfügbar"
+  },
+  "errorPage": {
+    "title": "Etwas ist schiefgelaufen!",
+    "currentUnavailableTitle": "Diese Status-Seite ist derzeit nicht verfügbar",
+    "globalTitle": "500 — System nicht verfügbar",
+    "notFoundTitle": "404 — Seite nicht gefunden",
+    "diagnostics": "Diagnose-Informationen",
+    "httpStatus": "HTTP-Status",
+    "httpStatusUnavailable": "Keine HTTP-Antwort",
+    "retry": "Erneut versuchen",
+    "retrying": "Versuche erneut …",
+    "backHome": "Zurück zur Startseite",
+    "globalMessage": "Die Status-Quelle ist derzeit nicht erreichbar. Bitte versuche es in wenigen Augenblicken erneut.",
+    "notFoundMessage": "Die angeforderte Status-Seite existiert nicht oder ist nicht mehr verfügbar."
+  }
+}

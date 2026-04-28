@@ -9,7 +9,7 @@ import {
   DropdownTrigger,
   Dropdown as HeroUIDropdown,
 } from '@heroui/react';
-import { FlagCn, FlagHk, FlagJp, FlagKr, FlagRu, FlagTw, FlagUs } from '@sankyu/react-circle-flags';
+import { FlagCn, FlagDe, FlagHk, FlagJp, FlagKr, FlagRu, FlagTw, FlagUs } from '@sankyu/react-circle-flags';
 import { Languages, Loader2 } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useTransition } from 'react';
@@ -20,6 +20,7 @@ const flagComponents: Record<string, React.ComponentType<{ width?: number; heigh
   TW: FlagTw,
   HK: FlagHk,
   US: FlagUs,
+  DE: FlagDe,
   JP: FlagJp,
   KR: FlagKr,
   RU: FlagRu,

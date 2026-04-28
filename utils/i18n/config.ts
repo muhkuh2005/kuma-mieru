@@ -26,6 +26,12 @@ export const locales = [
     alpha2Code: 'US',
   },
   {
+    key: 'de-DE',
+    name: 'Deutsch',
+    flag: '🇩🇪',
+    alpha2Code: 'DE',
+  },
+  {
     key: 'ja-JP',
     name: '日本語',
     flag: '🇯🇵',
