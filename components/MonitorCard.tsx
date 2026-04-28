@@ -18,6 +18,7 @@ import {
   getTagChipStyle,
   getUptimeRingData,
 } from './utils/monitor-card';
+import { useMonitorDisplayName } from '@/utils/monitor-display-name';
 
 const VIEW_PREFERENCE_KEY = 'view-preference-monitor-card';
 
@@ -31,6 +32,7 @@ export function MonitorCard({
 }: MonitorCardProps) {
   const router = useRouter();
   const pageConfig = usePageConfig();
+  const displayName = useMonitorDisplayName();
   const [isSafari, setIsSafari] = useState(false);
   const [localLiteView, setLocalLiteView] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -114,9 +116,9 @@ export function MonitorCard({
           <div className="grid grid-rows-[auto_minmax(28px,auto)] gap-2 min-w-0 overflow-hidden">
             <div className="flex items-center gap-2 w-full min-w-0">
               <StatusIcon className={clsx(statusVisual.iconClassName, 'h-5 w-5 ml-1 shrink-0')} />
-              <Tooltip content={monitor.name} placement="top" delay={300}>
+              <Tooltip content={displayName(monitor.name)} placement="top" delay={300}>
                 <h3 className="text-lg font-semibold truncate text-ellipsis max-w-36 md:max-w-40 lg:max-w-48">
-                  {monitor.name}
+                  {displayName(monitor.name)}
                 </h3>
               </Tooltip>
             </div>

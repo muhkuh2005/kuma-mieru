@@ -97,6 +97,7 @@
     "systemError": "Critical system failure",
     "systemUnknown": "System status unavailable"
   },
+  "monitors": {},
   "errorPage": {
     "title": "Something went wrong!",
     "currentUnavailableTitle": "This status page is currently unavailable",

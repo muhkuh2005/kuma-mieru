@@ -97,6 +97,7 @@
     "systemError": "서비스 실행 오류",
     "systemUnknown": "서비스 상태 알 수 없음"
   },
+  "monitors": {},
   "errorPage": {
     "title": "오류가 발생했습니다!",
     "currentUnavailableTitle": "이 상태 페이지는 현재 사용할 수 없습니다",

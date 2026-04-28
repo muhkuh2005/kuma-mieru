@@ -97,6 +97,7 @@
     "systemError": "Ошибка работы сервисов",
     "systemUnknown": "Статус сервисов неизвестен"
   },
+  "monitors": {},
   "errorPage": {
     "title": "Произошла ошибка!",
     "currentUnavailableTitle": "Эта страница статуса в настоящее время недоступна",

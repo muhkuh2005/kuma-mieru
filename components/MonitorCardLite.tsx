@@ -14,6 +14,7 @@ import {
   getTagChipStyle,
   getUptimeRingData,
 } from './utils/monitor-card';
+import { useMonitorDisplayName } from '@/utils/monitor-display-name';
 
 interface MonitorCardLiteProps extends MonitorCardProps {
   onToggleView: (e: React.MouseEvent) => void;
@@ -32,6 +33,7 @@ export function MonitorCardLite({
   const pageConfig = usePageConfig();
   const { statusVisual, StatusIcon } = getMonitorCardStatusMeta(heartbeats);
   const t = useTranslations('');
+  const displayName = useMonitorDisplayName();
 
   const uptimeData = getUptimeRingData(uptime24h, statusVisual.ringFill);
 
@@ -61,9 +63,9 @@ export function MonitorCardLite({
               <StatusIcon className={clsx(statusVisual.iconClassName, 'h-5 w-5 shrink-0')} />
               <div className="flex min-w-0 flex-1 items-center gap-2">
                 <div className="min-w-0 flex-1">
-                  <Tooltip content={monitor.name} placement="top" delay={300}>
+                  <Tooltip content={displayName(monitor.name)} placement="top" delay={300}>
                     <h3 className="truncate text-ellipsis whitespace-nowrap font-semibold">
-                      {monitor.name}
+                      {displayName(monitor.name)}
                     </h3>
                   </Tooltip>
                 </div>

@@ -97,6 +97,7 @@
     "systemError": "システムに重大障害が発生しました",
     "systemUnknown": "システム状態を確認できません"
   },
+  "monitors": {},
   "errorPage": {
     "title": "エラーが発生しました！",
     "currentUnavailableTitle": "このステータスページは現在利用できません",

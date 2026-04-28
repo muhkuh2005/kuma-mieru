@@ -97,6 +97,7 @@
     "systemError": "系統嚴重故障",
     "systemUnknown": "系統狀態未明"
   },
+  "monitors": {},
   "errorPage": {
     "title": "發生錯誤！",
     "currentUnavailableTitle": "目前狀態頁面暫時無法使用",

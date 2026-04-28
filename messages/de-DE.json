@@ -97,6 +97,13 @@
     "systemError": "Kritischer Systemausfall",
     "systemUnknown": "Systemstatus nicht verfügbar"
   },
+  "monitors": {
+    "Realtime Cache": "Echtzeit-Cache",
+    "Save Storage": "Spielstand-Speicher",
+    "Website & Login": "Webseite & Login",
+    "Live Updates": "Live-Updates",
+    "Game World Background": "Spielwelt-Hintergrund"
+  },
   "errorPage": {
     "title": "Etwas ist schiefgelaufen!",
     "currentUnavailableTitle": "Diese Status-Seite ist derzeit nicht verfügbar",

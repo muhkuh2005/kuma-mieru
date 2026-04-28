@@ -97,6 +97,7 @@
     "systemError": "服务运行异常",
     "systemUnknown": "服务状态未知"
   },
+  "monitors": {},
   "errorPage": {
     "title": "出错了！",
     "currentUnavailableTitle": "当前状态页暂不可用",
